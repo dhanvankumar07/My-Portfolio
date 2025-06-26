@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <img class="My-logo" src="Images/logo0.1.png" alt="" />
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+          <i class="fas fa-bars" id="menu-icon" onclick="openmenu()"></i>
+          <i class="fas fa-times" id="close-icon" onclick="closemenu()"></i>
+        </nav>
+
+        <div class="header-text">
+          <p>Web Developer</p>
+          <h1>Hi, i'm <span>Dhanvan kumar</span><br />from Jaipur</h1>
+        </div>
+      </div>
+    </div>
+
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col1">
+            <img src="Images/Profile.png" />
+          </div>
+          <div class="about-col2">
+               <h1 class="sub-title">About Me</h1>
+<p>
+  I'm Dhanvan Kumar, a passionate and driven Full-Stack Developer and AI/ML aspirant, currently pursuing B.Tech in Computer Science at NIMS University, Jaipur.<br><br>
+
+  I specialize in building robust and scalable web applications using the MERN stack (MongoDB, Express.js, React.js, Node.js), and have a solid grasp of Java programming. My problem-solving skills are sharpened through continuous practice in Data Structures and Algorithms (DSA), making me confident in writing efficient and optimized code.<br><br>
+
+  Apart from web development, I am deeply curious about Artificial Intelligence and Machine Learning, and I am actively exploring innovations in this field. I also have a growing interest in Cloud Computing technologies, which I believe are shaping the future of scalable applications.<br><br>
+
+  I am always eager to learn new tools and technologies to expand my skill set and stay updated with the latest industry trends. My goal is to contribute to impactful projects and solve real-world problems through technology.
+</p>
+</p>      <div class="education-box"> 
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('Skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="opentab('Experience')">
+                Experience
+              </p>
+              <p class="tab-links" onclick="opentab('Education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="Skills">
+              <ul>
+                <li>
+                  <span>Full-Stack Developer </span><br />
+                  web app development
+                </li>
+                <li>
+                  <span>Data structures</span><br />Solving and optimising
+                  techniques
+                </li>
+                <li>
+                  <span>Java</span><br />Good knowledge of programming
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="Experience">
+              <ul>
+                <li>
+                  <span>2024</span><br />Operating System,Computer Networks...
+                </li>
+                <li><span>2023</span><br />Learned Java/Javascript with sololearn</li>
+                <li>
+                  <span>September-November(2023)</span><br />Worked with ____ on
+                  Web development
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="Education">
+              <ul>
+                <li>
+                  <span>B.Tech CSE (2022-2026)</span><br />NIMS
+                  University,Jaipur
+                </li>
+                <li>
+                  <span>Intermediate 12th (2019)</span><br /> +2 H/S Rajapakar,Vaishali
+                </li>
+                <li>
+                  <span>Matric 10th(2017)</span><br /> R K High School, Chandpura
+                </li>
+              </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="services">
+      <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+          <div>
+            <i class="fas fa-solid fa-code"></i>
+            <h2>Generative-Ai</h2>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque ab
+              laborum fugit, id necessitatibus quisquam perferendis est mollitia
+              omnis provident, eveniet veritatis eius non. Hic laborum quam
+              mollitia necessitatibus blanditiis?
+            </p>
+            <a href="#">Learn more...</a>
+          </div>
+          <div>
+            <i class="fas fa-crop-alt"></i>
+            <h2>Data Structures</h2>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque ab
+              laborum fugit, id necessitatibus quisquam perferendis est mollitia
+              omnis provident, eveniet veritatis eius non. Hic laborum quam
+              mollitia necessitatibus blanditiis?
+            </p>
+            <a href="#">Learn more...</a>
+          </div>
+          <div>
+            <i class="fas fa-app-store"></i>
+            <h2>Java</h2>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque ab
+              laborum fugit, id necessitatibus quisquam perferendis est mollitia
+              omnis provident, eveniet veritatis eius non. Hic laborum quam
+              mollitia necessitatibus blanditiis?
+            </p>
+            <a href="#">Learn more...</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="portfolio">
+      <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="Images/inta-clone0.3.jpg" />
+            <div class="layer">
+              <h3>Instagram Clone</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Eligendi iste quam esse tempora, aliquid beatae, hic ipsum
+                minima iure illum, veniam maiores. Veritatis magnam laborum ea
+                illo eos sapiente repellendus.
+              </p>
+              <a
+                href="https://github.com/Ayush8603/Dairy-management-system/blob/main/DiaryManagement.exe "
+                ><i class="fa-solid fa-link"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="Images/DSA.jpg" />
+            <div class="layer">
+              <h3>DSA</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Eligendi iste quam esse tempora, aliquid beatae, hic ipsum
+                minima iure illum, veniam maiores. Veritatis magnam laborum ea
+                illo eos sapiente repellendus.
+              </p>
+              <a
+                href="https://github.com/Ayush8603/To-Do-List/blob/main/ToDoList.exe"
+                ><i class="fa-solid fa-link"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="Images/Amazon-Clone.jpg" />
+            <div class="layer">
+              <h3>Amazon clone</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing selit.
+                Eligendi iste quam esse tempora, aliquid beatae, hic ipsum
+                minima iure illum, veniam maiores. Veritatis magnam laborum ea
+                illo eos sapiente repellendus.
+              </p>
+              <a href="https://ayush8603.github.io/Amazon-Clone/"
+                ><i class="fa-solid fa-link"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+        <a href="https://github.com/dhanvankumar07" class="btn">see more </a>
+      </div>
+    </div>
+
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <div class="social-icons">
+              <p>
+                <i class="fas fa-paper-plane"></i>dhanvan.connect@gmail.com
+              </p>
+              <p><i class="fas fa-phone-square-alt"></i>+91 8873835374</p>
+              <a
+                href=" www.linkedin.com/in/dhanvan-connect7"
+                ><i class="fa-brands fa-linkedin"></i
+              ></a>
+              <a href="https://www.facebook.com/profile.php?id=100033460752086"
+                ><i class="fa-brands fa-facebook"></i
+              ></a>
+              <a
+                href="https://www.instagram.com/ayusshhh_0?igsh=aW1tODU4ZGd5cjc="
+                ><i class="fa-brands fa-square-instagram"></i
+              ></a>
+            </div>
+            <a href="Images/CV DK.pdf" download class="btn btn2"
+              >Download CV</a>
+          </div>
+          <div class="contact-right">
+            <form name="submit-to-google-sheet">
+              <input type="text" name="Name" placeholder="Your Name" required />
+              <input
+                type="email"
+                name="Email"
+                placeholder="your email"
+                required
+              />
+              <textarea
+                name="Message"
+                rows="6"
+                placeholder="your message"
+              ></textarea>
+              <button type="submit" class="btn btn2">Submit</button>
+            </form>
+            <span id="msg"></span>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+       <p>&copy; 2025 Dhanvan Kumar. All Rights Reserved.</p>
+
+      </div>
+    </div>
+    <script src="script.js"></script>
+    <script>
+      var sidemenu = document.getElementById("sidemenu");
+      var menuIcon = document.getElementById("menu-icon");
+      var closeIcon = document.getElementById("close-icon");
+
+      function openmenu() {
+        sidemenu.style.right = "0";
+        menuIcon.style.display = "none";
+        closeIcon.style.display = "block";
+      }
+
+      function closemenu() {
+        sidemenu.style.right = "-200px";
+        menuIcon.style.display = "block";
+        closeIcon.style.display = "none";
+      }
+    </script>
+  </body>
+</html>
